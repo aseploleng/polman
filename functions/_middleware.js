@@ -74,7 +74,7 @@ export async function onRequest(context) {
       }
       
       // Create canonical URL
-      const canonicalOrigin = 'https://nadinebeautyforever.com'; // Replace with your actual domain
+      const canonicalOrigin = 'https://eabsensi.polmankab.go.id/ws'; // Replace with your actual domain
       const canonicalUrl = `${canonicalOrigin}/${urlFormattedSite}/`;
       
       // Generate AMP HTML with self-contained design
